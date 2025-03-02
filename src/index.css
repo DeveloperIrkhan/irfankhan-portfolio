@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --font-Aclonica: "Aclonica", sans-serif;
+  --font-Outfit: "Outfit", sans-serif;
+  --font-Dancing: "Dancing Script", cursive;
+  --blue-color:#3b82f6
+  --amber-color:#ff3f3 
+}
