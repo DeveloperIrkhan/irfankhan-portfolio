@@ -22,7 +22,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
             href="#home"
           >
             <span className="text-amber-500 font-Outfit">Dev.</span>
-            <span className="text-white">IrfanShah</span>
+            <span className="text-white">Irfan Khan</span>
           </a>
           <div
             onClick={() => setIsMenuOpen((prev) => !prev)}

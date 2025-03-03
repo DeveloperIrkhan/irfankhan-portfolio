@@ -5,5 +5,11 @@
   --font-Outfit: "Outfit", sans-serif;
   --font-Dancing: "Dancing Script", cursive;
   --blue-color:#3b82f6
-  --amber-color:#ff3f3 
+  --amber-shadow-color:"shadow-[0_0_25px_rgba(255,165,0,0.7)]"
+}
+
+@layer utilities {
+  .shadow-amber {
+    box-shadow: 0 0 25px rgba(255, 165, 0, 0.7);
+  }
 }
