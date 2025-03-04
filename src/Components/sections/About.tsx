@@ -1,4 +1,5 @@
-import React from "react";
+import { FaGithub, FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import Title from "../Title";
 const frontEndSkills = [
   "React",
@@ -34,14 +35,16 @@ const otherSkills = [
 const About = () => {
   return (
     <div
+      data-aos="fade-right"
       id="about"
       className="min-h-screen flex flex-col items-center justify-center py-20"
     >
-      <div className="max-w-3xl mx-auto font-bold px-4">
+      <div data-aos="flip-left" className="max-w-3xl mx-auto font-bold px-4">
         <Title title="About us" />
       </div>
       <div className="glass max-w-[90%] rounded-xl p-8">
         <p
+          data-aos="flip-right"
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
@@ -49,14 +52,55 @@ const About = () => {
           web applications and crafting innovative solutions that enhance user
           experience and efficiency
         </p>
+        <div
+          data-aos="flip-up"
+          className="border border-white/10 rounded-xl text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
+        hover:-translate-y-1 transition-all duration-300 py-10 px-3"
+        >
+          find me out on
+          <div className="flex justify-center items-center gap-4 mt-4">
+            <a
+              data-aos="zoom-in" data-aos-duration="1500"
+              href="https://github.com/DeveloperIrkhan"
+              target="_blank"
+              className="hover:text-gray-600 duration-200"
+            >
+              <FaGithub />
+            </a>
+            <a
+              data-aos="zoom-in" data-aos-duration="1500"
+              href="https://www.facebook.com/IRKhan1438/"
+              target="_blank"
+              className="hover:text-blue-600 duration-200"
+            >
+              <FaFacebookSquare />
+            </a>
+            <a
+              data-aos="zoom-in" data-aos-duration="1500"
+              href="https://www.instagram.com/irfanshah.exe/"
+              target="_blank"
+              className="hover:text-pink-500 duration-200"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              data-aos="zoom-in" data-aos-duration="1500"
+              href="https://www.x.com/irfansha1435/"
+              target="_blank"
+              className="hover:text-blue-600 duration-200"
+            >
+              <FaSquareXTwitter />
+            </a>
+          </div>
+        </div>
         {/* skills */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div data-aos="flip-left" className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="grid grid-cols-1 gap-6">
             <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">FrontEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {frontEndSkills.map((skill, index) => (
-                  <span
+                  <span data-aos="flip-right"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 rounded-full 
                     hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer text-sm hover:bg-amber-400"
@@ -72,7 +116,7 @@ const About = () => {
               <h2 className="text-xl font-bold font-Outfit mb-4">BackEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {backendSkills.map((skill, index) => (
-                  <span
+                  <span data-aos="flip-left"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
                     rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
@@ -90,7 +134,7 @@ const About = () => {
               </h2>
               <div className="flex flex-wrap gap-3">
                 {otherSkills.map((skill, index) => (
-                  <span
+                  <span data-aos="flip-right"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
                     rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
@@ -103,11 +147,11 @@ const About = () => {
           </div>
         </div>
 
-        <div id="eduaction" className="grid grid-cols-1 md:grid-cols-2 gap-3 ">
+        <div data-aos="fade-down-right" id="eduaction" className="grid grid-cols-1 md:grid-cols-2 gap-3 ">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-2xl font-bold font-Aclonica mb-4">Education</h3>
+            <h3 data-aos="fade-down-right" className="text-2xl font-bold font-Aclonica mb-4">Education</h3>
             <ul className="text-sm font-Outfit flex flex-col">
-              <li className="flex flex-col my-3">
+              <li data-aos="fade-right" aos-duration="1500"  className="flex flex-col my-3">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
                   <span className="text-xl font-bold">
@@ -118,7 +162,7 @@ const About = () => {
                   CGPA 3.00 (2012) | AWK University Mardan, PAK
                 </p>
               </li>
-              <li className="flex flex-col my-3">
+              <li data-aos="fade-right" aos-duration="3000" className="flex flex-col my-3">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
                   <span className="text-xl font-bold">
@@ -133,12 +177,12 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div  data-aos="fade-up"className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-2xl font-bold font-Aclonica mb-4">
                 Experience
               </h3>
-              <ul className="text-sm font-Outfit flex flex-col gap-y-5 list-disc list-inside">
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+              <ul   className="text-sm font-Outfit flex flex-col gap-y-5 list-disc list-inside">
+                <li data-aos="fade-up" aos-duration="1000" className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -150,7 +194,7 @@ const About = () => {
                     management, and responsive design using Bootstrap
                   </p>
                 </li>
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li data-aos="fade-up" aos-duration="2000"  className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -174,7 +218,7 @@ const About = () => {
                   </p>
                 </li>
 
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li data-aos="fade-up" aos-duration="3000"  className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -199,7 +243,7 @@ const About = () => {
                   </p>
                 </li>
 
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li data-aos="fade-up" aos-duration="4000" className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">React Developer Intern</span>{" "}
                   BrainXero PAK (feb 2021 to Nov 2021)
@@ -223,7 +267,7 @@ const About = () => {
                   </p>
                 </li>
 
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li data-aos="fade-up" aos-duration="5000" className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Graphic Designer / Freelancer
@@ -248,7 +292,7 @@ const About = () => {
                   </p>
                 </li>
 
-                <li className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li data-aos="fade-up" aos-duration="6000" className="flex flex-row flex-wrap items-center gap-1 my-1">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">Web Developer</span> H2O Tranders
                   (feb 2015 – March 2016)
