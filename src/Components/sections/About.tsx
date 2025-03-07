@@ -60,7 +60,8 @@ const About = () => {
           find me out on
           <div className="flex justify-center items-center gap-4 mt-4">
             <a
-              data-aos="zoom-in" data-aos-duration="1500"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
               href="https://github.com/DeveloperIrkhan"
               target="_blank"
               className="hover:text-gray-600 duration-200"
@@ -68,7 +69,8 @@ const About = () => {
               <FaGithub />
             </a>
             <a
-              data-aos="zoom-in" data-aos-duration="1500"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
               href="https://www.facebook.com/IRKhan1438/"
               target="_blank"
               className="hover:text-blue-600 duration-200"
@@ -76,7 +78,8 @@ const About = () => {
               <FaFacebookSquare />
             </a>
             <a
-              data-aos="zoom-in" data-aos-duration="1500"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
               href="https://www.instagram.com/irfanshah.exe/"
               target="_blank"
               className="hover:text-pink-500 duration-200"
@@ -84,7 +87,8 @@ const About = () => {
               <FaInstagram />
             </a>
             <a
-              data-aos="zoom-in" data-aos-duration="1500"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
               href="https://www.x.com/irfansha1435/"
               target="_blank"
               className="hover:text-blue-600 duration-200"
@@ -94,13 +98,17 @@ const About = () => {
           </div>
         </div>
         {/* skills */}
-        <div data-aos="flip-left" className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div
+          data-aos="flip-left"
+          className="grid grid-cols-1 md:grid-cols-2 gap-2"
+        >
           <div className="grid grid-cols-1 gap-6">
             <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">FrontEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {frontEndSkills.map((skill, index) => (
-                  <span data-aos="flip-right"
+                  <span
+                    data-aos="flip-right"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 rounded-full 
                     hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer text-sm hover:bg-amber-400"
@@ -116,7 +124,8 @@ const About = () => {
               <h2 className="text-xl font-bold font-Outfit mb-4">BackEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {backendSkills.map((skill, index) => (
-                  <span data-aos="flip-left"
+                  <span
+                    data-aos="flip-left"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
                     rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
@@ -134,7 +143,8 @@ const About = () => {
               </h2>
               <div className="flex flex-wrap gap-3">
                 {otherSkills.map((skill, index) => (
-                  <span data-aos="flip-right"
+                  <span
+                    data-aos="flip-right"
                     key={index}
                     className="bg-amber-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
                     rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
@@ -147,11 +157,24 @@ const About = () => {
           </div>
         </div>
 
-        <div data-aos="fade-down-right" id="eduaction" className="grid grid-cols-1 md:grid-cols-2 gap-3 ">
+        <div
+          data-aos="fade-down-right"
+          id="eduaction"
+          className="grid grid-cols-1 md:grid-cols-2 gap-3 "
+        >
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 data-aos="fade-down-right" className="text-2xl font-bold font-Aclonica mb-4">Education</h3>
+            <h3
+              data-aos="fade-down-right"
+              className="text-2xl font-bold font-Aclonica mb-4"
+            >
+              Education
+            </h3>
             <ul className="text-sm font-Outfit flex flex-col">
-              <li data-aos="fade-right" aos-duration="1500"  className="flex flex-col my-3">
+              <li
+                data-aos="fade-right"
+                aos-duration="1500"
+                className="flex flex-col my-3"
+              >
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
                   <span className="text-xl font-bold">
@@ -159,10 +182,14 @@ const About = () => {
                   </span>
                 </div>
                 <p className="ml-5 text-base text-white/70">
-                  CGPA 3.00 (2012) | AWK University Mardan, PAK
+                  CGPA 3.00 | AWK University Mardan, PAK
                 </p>
               </li>
-              <li data-aos="fade-right" aos-duration="3000" className="flex flex-col my-3">
+              <li
+                data-aos="fade-right"
+                aos-duration="3000"
+                className="flex flex-col my-3"
+              >
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
                   <span className="text-xl font-bold">
@@ -170,19 +197,26 @@ const About = () => {
                   </span>
                 </div>
                 <p className="ml-5 text-base text-white/70">
-                  CGPA 3.20 (2015) | IMSciences Peshawar, PAK
+                  CGPA 3.20 | IMSciences Peshawar, PAK
                 </p>
               </li>
             </ul>
           </div>
 
           <div className="flex flex-wrap">
-            <div  data-aos="fade-up"className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div
+              data-aos="fade-up"
+              className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all"
+            >
               <h3 className="text-2xl font-bold font-Aclonica mb-4">
                 Experience
               </h3>
-              <ul   className="text-sm font-Outfit flex flex-col gap-y-5 list-disc list-inside">
-                <li data-aos="fade-up" aos-duration="1000" className="flex flex-row flex-wrap items-center gap-1 my-1">
+              <ul className="text-sm font-Outfit flex flex-col gap-y-5 list-disc list-inside">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="1000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -190,11 +224,16 @@ const About = () => {
                   www.onlinehurak.com
                   <p className="ml-4 text-gray-300">
                     Developed a functional food delivery app (MERN stack) with
-                    Stripe for secure payments, Redux Toolkit for state
-                    management, and responsive design using Bootstrap
+                    Stripe for secure payments, Redux and redux Toolkit for
+                    state management and api calls, and created a responsive
+                    designs using Bootstrap for all devices
                   </p>
                 </li>
-                <li data-aos="fade-up" aos-duration="2000"  className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="2000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -218,7 +257,11 @@ const About = () => {
                   </p>
                 </li>
 
-                <li data-aos="fade-up" aos-duration="3000"  className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="3000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
@@ -243,7 +286,11 @@ const About = () => {
                   </p>
                 </li>
 
-                <li data-aos="fade-up" aos-duration="4000" className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="4000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">React Developer Intern</span>{" "}
                   BrainXero PAK (feb 2021 to Nov 2021)
@@ -267,7 +314,11 @@ const About = () => {
                   </p>
                 </li>
 
-                <li data-aos="fade-up" aos-duration="5000" className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="5000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
                     Graphic Designer / Freelancer
@@ -292,7 +343,11 @@ const About = () => {
                   </p>
                 </li>
 
-                <li data-aos="fade-up" aos-duration="6000" className="flex flex-row flex-wrap items-center gap-1 my-1">
+                <li
+                  data-aos="fade-up"
+                  aos-duration="6000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">Web Developer</span> H2O Tranders
                   (feb 2015 – March 2016)

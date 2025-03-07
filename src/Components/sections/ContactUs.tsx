@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Title from "../Title";
 import emailjs from "emailjs-com";
+import { Images } from "../../images/Image";
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -9,7 +10,7 @@ const ContactUs = () => {
     message: ""
   });
 
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const onSubmitHandler = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -119,7 +120,7 @@ const ContactUs = () => {
           {isLoading ? (
             <img
               className="w-8 absolute top-2.5 right-14"
-              src="../src/assets/Spinner.svg"
+              src={Images.Spinner}
             />
           ) : (
             ""
