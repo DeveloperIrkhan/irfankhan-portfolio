@@ -11,7 +11,7 @@ const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="font-Aclonica">
+    <div className="font-Aclonica overflow-hidden">
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-700 

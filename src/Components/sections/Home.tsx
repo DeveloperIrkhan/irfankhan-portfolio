@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="w-full min-h-screen flex items-center justify-center overflow-hidden"
     >
       <div className="text-center">
         <h1 className="md:text-5xl text-2xl font-bold font-Outfit mb-4 bg-gradient-to-bl from-amber-400 to-gray-200 bg-clip-text text-transparent">
