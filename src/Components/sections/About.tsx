@@ -46,8 +46,8 @@ const About = () => {
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
-          Hi 🖐 I'm a full-stack web developer with 4 years of experience in
-          creating responsive website.
+          Hi 🖐, I'm a full-stack web developer with 4 years of experience in creating responsive websites. 
+          Additionally, I have a strong background in Graphic designing as well.
         </p>
         <p
           data-aos="flip-right"
@@ -62,11 +62,14 @@ const About = () => {
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
-          I have 4 years of expertise in ReactJS, ReactTS, the most popular
-          freaework for building modern web applications, I have also worked
-          with .NET Core for 2 years and Node and Express from last year, and
-          i'm proficient in MongoDB and PostgreSQL, two of the most widely used
-          databases for web development
+          I have 2 years of expertise in React,
+          the most popular framework for building modern web applications. 
+          and I have also worked as a .NET Core developer for 2 years, where I utilized .NET Core 
+          and Web APIs to build scalable applications. Over the past year, 
+          I have started working with Node.js and Express.js for backend development. Additionally,
+           I am proficient in MongoDB and PostgreSQL, 
+          two of the most widely used databases for web development.
+
         </p>
         <div
           data-aos="flip-up"
