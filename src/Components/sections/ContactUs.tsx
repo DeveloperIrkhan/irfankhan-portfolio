@@ -46,7 +46,7 @@ const ContactUs = () => {
       </div>
       <form
         onSubmit={onSubmitHandler}
-        className="p-3 flex flex-col w-96 gap-y-3"
+        className="p-3 flex flex-col md:w-96 gap-y-3"
       >
         <input
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}

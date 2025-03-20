@@ -15,13 +15,11 @@ const frontEndSkills = [
   "Razor Pages",
   "React Router"
 ];
+const databasesSkills = ["MongoDB", "SQL Server", "Postgre SQL"];
 const backendSkills = [
   "Dotnet Core MVC",
   "Node.JS",
   "Express.JS",
-  "MongoDB",
-  "SQL Server",
-  "Postgre SQL",
   "DotNet Core APIs"
 ];
 const otherSkills = [
@@ -42,15 +40,33 @@ const About = () => {
       <div data-aos="flip-left" className="max-w-3xl mx-auto font-bold px-4">
         <Title title="About us" />
       </div>
-      <div className="glass max-w-[90%] rounded-xl p-8">
+      <div className="glass md:max-w-[90%] rounded-xl p-8">
         <p
           data-aos="flip-right"
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
-          A passionate developer with a strong expertise in building scalable
-          web applications and crafting innovative solutions that enhance user
-          experience and efficiency
+          Hi 🖐 I'm a full-stack web developer with 4 years of experience in
+          creating responsive website.
+        </p>
+        <p
+          data-aos="flip-right"
+          className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
+        hover:-translate-y-1 transition-all duration-300"
+        >
+          if you're looking for someone collaborate with you in your project
+          with modren technologies then you found it 😊
+        </p>
+        <p
+          data-aos="flip-right"
+          className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
+        hover:-translate-y-1 transition-all duration-300"
+        >
+          I have 4 years of expertise in ReactJS, ReactTS, the most popular
+          freaework for building modern web applications, I have also worked
+          with .NET Core for 2 years and Node and Express from last year, and
+          i'm proficient in MongoDB and PostgreSQL, two of the most widely used
+          databases for web development
         </p>
         <div
           data-aos="flip-up"
@@ -103,7 +119,10 @@ const About = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-2"
         >
           <div className="grid grid-cols-1 gap-6">
-            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
+            <div
+              className="rounded-xl md:p-6 p-2 hover:translate-y-1 transition-all duration-300
+             border-white/10 border"
+            >
               <h2 className="text-xl font-bold font-Outfit mb-4">FrontEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {frontEndSkills.map((skill, index) => (
@@ -138,6 +157,23 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1 gap-6">
             <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
+              <h2 className="text-xl font-bold font-Outfit mb-4">Databases</h2>
+              <div className="flex flex-wrap gap-3">
+                {databasesSkills.map((skill, index) => (
+                  <span
+                    data-aos="flip-left"
+                    key={index}
+                    className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
+                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-6">
+            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">
                 Other Skills
               </h2>
@@ -156,7 +192,58 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="md:my-10 my-5 flex justify-center items-center flex-col">
+          <h2 className="text-xl text-center font-bold font-Outfit mb-4">
+            Why Hire me? 😏
+          </h2>
 
+          <p
+            data-aos="flip-right"
+            className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
+            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+          >
+            Experience in collaborating on different types of projects with
+            International Clients
+          </p>
+          <p
+            data-aos="flip-right"
+            className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
+            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+          >
+            100% clients satisfaction on Upwork and fiver
+          </p>
+          <p
+            data-aos="flip-right"
+            className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
+            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+          >
+            Creative and problem solving skills for challenging projects
+          </p>
+          <p
+            data-aos="flip-right"
+            className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
+            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+          >
+            Proven track record of delivering high quality projects
+          </p>
+          <p
+            data-aos="flip-right"
+            className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
+            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+          >
+            Completed many Ecommerce stores and other Full Stack Projects.
+          </p>
+        </div>
+        <p
+          data-aos="flip-right"
+          className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
+        hover:-translate-y-1 transition-all duration-300"
+        >
+          I'm looking for opportunities to collaborate with other web developers
+          and create amazing web experiences for uses. if you are intrested in
+          working with me or want to see some of my previous work please feel
+          free to contact me.
+        </p>
         <div
           data-aos="fade-down-right"
           id="eduaction"
