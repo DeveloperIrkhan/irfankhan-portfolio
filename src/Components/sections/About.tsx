@@ -47,7 +47,7 @@ const About = () => {
         hover:-translate-y-1 transition-all duration-300"
         >
           Hi 🖐, I'm a full-stack web developer with 4 years of experience in creating responsive websites. 
-          Additionally, I have a strong background in Graphic designing as well.
+          Additionally, I have a strong background in Graphic designing as well
         </p>
         <p
           data-aos="flip-right"
