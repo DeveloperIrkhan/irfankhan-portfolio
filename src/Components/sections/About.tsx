@@ -403,7 +403,19 @@ const About = () => {
                     effectively
                   </p>
                 </li>
-
+                <li
+                  data-aos="fade-up"
+                  aos-duration="6000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
+                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <span className="font-bold">Web Developer</span> BrainXero Islamabad
+                  (Dec 2018 – Oct 2020)
+                  <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
+                    Started as an intern and later worked as graphic designer
+                    and Front-End Web developer
+                  </p>
+                </li>
                 <li
                   data-aos="fade-up"
                   aos-duration="5000"
@@ -413,9 +425,9 @@ const About = () => {
                   <span className="font-bold">
                     Graphic Designer / Freelancer
                   </span>{" "}
-                  H2O Tranders (June 2016 – 2020)
+                  H2O Tranders (June 2016 – 2018)
                   <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
-                    Worked as Graphics Designer Team Leader
+                    Worked as Graphics Designer Team-Leader
                   </p>
                   <p className="ml-4 text-gray-300 flex items-center">
                     Responsible for the Designing of T-Shirts, Logos, Posters,
@@ -433,19 +445,7 @@ const About = () => {
                   </p>
                 </li>
 
-                <li
-                  data-aos="fade-up"
-                  aos-duration="6000"
-                  className="flex flex-row flex-wrap items-center gap-1 my-1"
-                >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
-                  <span className="font-bold">Web Developer</span> H2O Tranders
-                  (feb 2015 – March 2016)
-                  <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
-                    Started as an intern and later worked as graphic designer
-                    and Front-End developer
-                  </p>
-                </li>
+               
               </ul>
             </div>
           </div>
