@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface IAnimationTypeProps {
   phrases: string[];
@@ -15,7 +15,6 @@ const AnimationText = ({ phrases, className = "" }: IAnimationTypeProps) => {
     //if text deleting then speed will be 50 else 100
     const speedOfAnimation = isDeleting ? 50 : 100;
     const pauseBeforeDelete = 2000;
-    const emptyPause = 3000;
 
     const updateText = () => {
       if (isDeleting) {
@@ -27,25 +26,28 @@ const AnimationText = ({ phrases, className = "" }: IAnimationTypeProps) => {
       }
     };
 
-    let timeout: NodeJS.Timeout;
-   
+    let timeout = 0;
+
     if (!isDeleting && currentText === currentPhrase) {
-        // Finished typing, now wait before deleting
-        timeout = setTimeout(() => setIsDeleting(true), pauseBeforeDelete);
-      } else if (isDeleting && currentText === "") {
-        // Finished deleting, move to next phrase
-        setIsDeleting(false);
-        setCurrentPhraseIndex((prev) => (prev + 1) % phrases.length);
-      } else {
-        timeout = setTimeout(updateText, speedOfAnimation);
-      }
-  
+      // Finished typing, now wait before deleting
+      timeout = setTimeout(() => setIsDeleting(true), pauseBeforeDelete);
+    } else if (isDeleting && currentText === "") {
+      // Finished deleting, move to next phrase
+      setIsDeleting(false);
+      setCurrentPhraseIndex((prev) => (prev + 1) % phrases.length);
+    } else {
+      timeout = setTimeout(updateText, speedOfAnimation);
+    }
+
     return () => clearTimeout(timeout);
   }, [currentText, isDeleting, currentPhraseIndex, phrases]);
 
   return (
     <div className={`flex items-center justify-center ${className}`}>
-      <span className="text-amber-300"> A {currentText} <span className="animate-blink ml-1"> | </span></span>
+      <span className="text-amber-300">
+        {" "}
+        A {currentText} <span className="animate-blink ml-1"> | </span>
+      </span>
     </div>
   );
 };

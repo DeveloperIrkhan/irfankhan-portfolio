@@ -1,4 +1,3 @@
-import { Images } from "../../images/Image";
 import AnimationText from "../Animattions/AnimationText";
 
 const Home = () => {
