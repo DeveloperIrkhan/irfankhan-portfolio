@@ -1,2 +1,3 @@
 import Spinner from "./Spinner.svg";
-export const Images = { Spinner };
+import Avator from "./Avator.jpg";
+export const Images = { Spinner, Avator };
