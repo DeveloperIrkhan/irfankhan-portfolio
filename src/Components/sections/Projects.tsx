@@ -9,7 +9,21 @@ const Projects = () => {
       <div className="max-w-5xl mx-auto px-4">
         <Title title="Featured Projects" />
       </div>
-      <div  className="grid md:grid-cols-2 grid-cols-1 gap-3 h-auto">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3 h-auto">
+        <ProjectCard
+          projectName="Complaint Registeration system"
+          description="I designed and developed a complete Complaint Registration System using Next.js, TypeScript, and MongoDB, allowing users to register complaints and track their status in real time. The system includes a robust role-based access structure with two dedicated dashboards: an Admin Dashboard for viewing all complaints, assigning tickets and tasks to technicians, managing priority levels, and monitoring progress, and a Technician Dashboard for accessing assigned tasks, updating complaint statuses, and managing daily workflow. I also implemented a user-friendly interface that improved complaint submission accuracy and significantly reduced processing time."
+          skills={[
+            "NEXT.js",
+            "NEXT.js API routes",
+            "TypeScript",
+            "Tailwind CSS",
+            "Shadcn UI",
+            "Auth.js",
+            "MongoDB",
+          ]}
+          link="#"
+        />
         <ProjectCard
           projectName="Medgic.pk"
           description="As a Full Stack Developer at Medgic.pk, I led the development of an innovative medical website that allows users to access healthcare resources and book appointments with professionals. I utilized .NET Core to build a robust backend, ensuring seamless integration with the frontend for a smooth user experience. Additionally, I implemented responsive design principles to optimize accessibility across different devices, enhancing usability and engagement."
@@ -21,7 +35,7 @@ const Projects = () => {
             "PayPro Integration",
             "C#",
             "javascript",
-            "jQuery"
+            "jQuery",
           ]}
           link="https://www.medgic.pk"
         />
@@ -35,7 +49,7 @@ const Projects = () => {
             "aos animation",
             "EmailJS",
             "javascript",
-            "SEO optimized"
+            "SEO optimized",
           ]}
           link="https://pcaresolution.com/"
         />
@@ -54,7 +68,7 @@ performance"
             "javascript",
             "Photoshop",
             "Illustrator",
-            "SEO optimized"
+            "SEO optimized",
           ]}
           link="https://www.unicarepsychiatry.com"
         />
@@ -71,7 +85,7 @@ performance"
             "Photoshop",
             "Illustrator",
             "Wordpress",
-            "SEO optimization"
+            "SEO optimization",
           ]}
           link="https://www.imusafir.pk"
         />
@@ -87,7 +101,7 @@ performance"
             "javascript",
             "Photoshop",
             "Illustrator",
-            "SEO optimization"
+            "SEO optimization",
           ]}
           link="https://www.brainxero.com"
         />
@@ -103,7 +117,7 @@ performance"
             "Context API",
             "Stripe Payment gateway",
             "Cloudinary",
-            "Tailwind CSS"
+            "Tailwind CSS",
           ]}
           link="#"
         />
@@ -122,7 +136,7 @@ Bootstrap"
             "React Router v6",
             "Stripe Payment gateway",
             "Cloudinary",
-            "Bootstrap 4"
+            "Bootstrap 4",
           ]}
           link="#"
         />

@@ -13,14 +13,15 @@ const frontEndSkills = [
   "Redux Toolkit",
   "Context API",
   "Razor Pages",
-  "React Router"
+  "React Router",
 ];
-const databasesSkills = ["MongoDB", "SQL Server", "Postgre SQL"];
+const databasesSkills = ["MongoDB", "SQL Server", "Postgre SQL", "Supabase"];
 const backendSkills = [
+  "NEXT.JS",
   "Dotnet Core MVC",
   "Node.JS",
   "Express.JS",
-  "DotNet Core APIs"
+  "DotNet Core APIs",
 ];
 const otherSkills = [
   "Photoshop",
@@ -28,7 +29,7 @@ const otherSkills = [
   "Poster Designing",
   "Logo Designing",
   "Sketching",
-  "Photography"
+  "Photography",
 ];
 const About = () => {
   return (
@@ -46,8 +47,9 @@ const About = () => {
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
-          Hi 🖐, I'm a full-stack web developer with 4 years of experience in creating responsive websites. 
-          Additionally, I have a strong background in Graphic designing as well
+          Hi 🖐, I'm a full-stack web developer with 4 years of experience in
+          creating responsive websites. Additionally, I have a strong background
+          in Graphic designing as well
         </p>
         <p
           data-aos="flip-right"
@@ -62,14 +64,13 @@ const About = () => {
           className="text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300"
         >
-          I have 2 years of expertise in React,
-          the most popular framework for building modern web applications. 
-          and I have also worked as a .NET Core developer for 2 years, where I utilized .NET Core 
-          and Web APIs to build scalable applications. Over the past year, 
-          I have started working with Node.js and Express.js for backend development. Additionally,
-           I am proficient in MongoDB and PostgreSQL, 
-          two of the most widely used databases for web development.
-
+          I have 2 years of expertise in React, the most popular framework for
+          building modern web applications. and I have also worked as a .NET
+          Core developer for 2 years, where I utilized .NET Core and Web APIs to
+          build scalable applications. Over the past year, I have started
+          working with Node.js and Express.js for backend development.
+          Additionally, I am proficient in MongoDB and PostgreSQL, two of the
+          most widely used databases for web development.
         </p>
         <div
           data-aos="flip-up"
@@ -409,8 +410,8 @@ const About = () => {
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
-                  <span className="font-bold">Web Developer</span> BrainXero Islamabad
-                  (Dec 2018 – Oct 2020)
+                  <span className="font-bold">Web Developer</span> BrainXero
+                  Islamabad (Dec 2018 – Oct 2020)
                   <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
                     Started as an intern and later worked as graphic designer
                     and Front-End Web developer
@@ -444,8 +445,6 @@ const About = () => {
                     effectively
                   </p>
                 </li>
-
-               
               </ul>
             </div>
           </div>
