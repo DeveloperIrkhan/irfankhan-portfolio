@@ -13,8 +13,8 @@ const ProjectCard = ({
   link
 }: IProjectCardProps) => {
   return (
-    <div data-aos="flip-up" className="max-w-lg">
-      <div className="p-4 group rounded-md border border-white/10 hover:-translate-y-1 duration-300 hover:shadow-[0_0_15px_rgba(255,165,0,0.7)] cursor-pointer">
+    <div data-aos="flip-up" className="max-w-lg h-auto">
+      <div className="p-4 group rounded-md border border-lime-200/10 hover:-translate-y-1 duration-300 hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer">
         <h2 data-aos="fade-up-right" className="text-xl font-bold text-white/70 font-Outfit group-hover:text-white duration-300">
           {projectName}
         </h2>
@@ -25,8 +25,8 @@ const ProjectCard = ({
           {skills.map((skill, index) => (
             <span data-aos="fade-left"
               key={index}
-              className="bg-amber-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
-                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
+              className="bg-lime-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
+                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer hover:bg-lime-400"
             >
               {skill}
             </span>

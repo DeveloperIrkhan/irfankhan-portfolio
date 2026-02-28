@@ -6,7 +6,7 @@ interface ILoadingScreenProps {
 
 const LoadingScreen = ({ onComplete }: ILoadingScreenProps) => {
   const [text, setText] = useState<string>("");
-  const fullText = "Hi, I'm IrfanShah, a FrontEnd and Backend Developer";
+  const fullText = "Hi, I'm IrfanShah, a Graphics Designer and Full Stack Developer";
 
   useEffect(() => {
     let index = 0;
@@ -25,13 +25,13 @@ const LoadingScreen = ({ onComplete }: ILoadingScreenProps) => {
     return () => clearInterval(interval);
   }, [onComplete]);
   return (
-    <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
-      <div className="mb-4 md:text-4xl text-[15px] md:px-0 px-5 text-center font-bold">
+    <div className="fixed inset-0 z-50 bg-black text-lime-500 flex flex-col items-center justify-center">
+      <div className="mb-4 md:text-2xl text-[13px] md:px-0 px-5 text-center font-bold">
         {text}
-        <span className="animate-blink ml-1"> | </span>
+        <span className="animate-blink ml-1 text-lime-300"> | </span>
       </div>
       <div className="progress-bar w-[300px] h-[2px] rounded relative overflow-hidden">
-        <div className="w-[50%] bg-blue-500 shadow-[0_0_0_15px_#FFBF00] animate-loading-bar"></div>
+        <div className="w-[50%] bg-lime-500 shadow-[0_0_0_15px_#84CC16] animate-loading-bar"></div>
       </div>
     </div>
   );

@@ -74,7 +74,7 @@ const About = () => {
         </p>
         <div
           data-aos="flip-up"
-          className="border border-white/10 rounded-xl text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
+          className="border border-lime-200/10 rounded-xl text-gray-300 md:max-w-lg max-w-md m-auto mb-5 font-Outfit md:text-xl text-center text-sm tracking-[3px] 
         hover:-translate-y-1 transition-all duration-300 py-10 px-3"
         >
           find me out on
@@ -125,7 +125,7 @@ const About = () => {
           <div className="grid grid-cols-1 gap-6">
             <div
               className="rounded-xl md:p-6 p-2 hover:translate-y-1 transition-all duration-300
-             border-white/10 border"
+             border-lime-200/10 border"
             >
               <h2 className="text-xl font-bold font-Outfit mb-4">FrontEnd</h2>
               <div className="flex flex-wrap gap-3">
@@ -133,8 +133,8 @@ const About = () => {
                   <span
                     data-aos="flip-right"
                     key={index}
-                    className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 rounded-full 
-                    hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer text-sm hover:bg-amber-400"
+                    className="bg-lime-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 rounded-full 
+                    hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer text-sm hover:bg-lime-400"
                   >
                     {skill}
                   </span>
@@ -143,15 +143,15 @@ const About = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6">
-            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
+            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-lime-200/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">BackEnd</h2>
               <div className="flex flex-wrap gap-3">
                 {backendSkills.map((skill, index) => (
                   <span
                     data-aos="flip-left"
                     key={index}
-                    className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
-                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
+                    className="bg-lime-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
+                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer hover:bg-lime-400"
                   >
                     {skill}
                   </span>
@@ -160,15 +160,15 @@ const About = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6">
-            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
+            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-lime-200/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">Databases</h2>
               <div className="flex flex-wrap gap-3">
                 {databasesSkills.map((skill, index) => (
                   <span
                     data-aos="flip-left"
                     key={index}
-                    className="bg-amber-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
-                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
+                    className="bg-lime-500 duration-200 font-Outfit tracking-[1px]  text-gray-100 hover:text-white py-1 px-3 
+                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer hover:bg-lime-400"
                   >
                     {skill}
                   </span>
@@ -177,7 +177,7 @@ const About = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6">
-            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-white/10 border">
+            <div className="rounded-xl p-6 hover:translate-y-1 transition-all duration-300 border-lime-200/10 border">
               <h2 className="text-xl font-bold font-Outfit mb-4">
                 Other Skills
               </h2>
@@ -186,8 +186,8 @@ const About = () => {
                   <span
                     data-aos="flip-right"
                     key={index}
-                    className="bg-amber-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
-                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer hover:bg-amber-400"
+                    className="bg-lime-500 duration-200 font-Outfit tracking-[1px] text-gray-100 hover:text-white py-1 px-3 
+                    rounded-full text-sm hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer hover:bg-lime-400"
                   >
                     {skill}
                   </span>
@@ -204,7 +204,7 @@ const About = () => {
           <p
             data-aos="flip-right"
             className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
-            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+            before:w-2 before:h-2 before:bg-lime-500 before:rounded-full before:absolute before:left-[-15px]"
           >
             Experience in collaborating on different types of projects with
             International Clients
@@ -212,28 +212,28 @@ const About = () => {
           <p
             data-aos="flip-right"
             className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
-            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+            before:w-2 before:h-2 before:bg-lime-500 before:rounded-full before:absolute before:left-[-15px]"
           >
             100% clients satisfaction on Upwork and fiver
           </p>
           <p
             data-aos="flip-right"
             className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
-            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+            before:w-2 before:h-2 before:bg-lime-500 before:rounded-full before:absolute before:left-[-15px]"
           >
             Creative and problem solving skills for challenging projects
           </p>
           <p
             data-aos="flip-right"
             className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
-            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+            before:w-2 before:h-2 before:bg-lime-500 before:rounded-full before:absolute before:left-[-15px]"
           >
             Proven track record of delivering high quality projects
           </p>
           <p
             data-aos="flip-right"
             className="relative font-Outfit list-none my-3 ml-4 text-gray-300 flex items-center before:content-[''] 
-            before:w-2 before:h-2 before:bg-amber-500 before:rounded-full before:absolute before:left-[-15px]"
+            before:w-2 before:h-2 before:bg-lime-500 before:rounded-full before:absolute before:left-[-15px]"
           >
             Completed many Ecommerce stores and other Full Stack Projects.
           </p>
@@ -253,7 +253,7 @@ const About = () => {
           id="eduaction"
           className="grid grid-cols-1 md:grid-cols-2 gap-3 "
         >
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-lime-200/10 border hover:-translate-y-1 transition-all">
             <h3
               data-aos="fade-down-right"
               className="text-2xl font-bold font-Aclonica mb-4"
@@ -267,7 +267,7 @@ const About = () => {
                 className="flex flex-col my-3"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"></div>
                   <span className="text-xl font-bold">
                     BSc Computer Science
                   </span>
@@ -282,7 +282,7 @@ const About = () => {
                 className="flex flex-col my-3"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"></div>
                   <span className="text-xl font-bold">
                     MSc Computer Science
                   </span>
@@ -297,7 +297,7 @@ const About = () => {
           <div id="Experience" className="flex flex-wrap">
             <div
               data-aos="fade-up"
-              className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all"
+              className="p-6 rounded-xl border-lime-200/10 border hover:-translate-y-1 transition-all"
             >
               <h3 className="text-2xl font-bold font-Aclonica mb-4">
                 Experience
@@ -308,7 +308,7 @@ const About = () => {
                   aos-duration="1000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">
                     Volinteer Full Web Developer
                   </span>{" "}
@@ -334,7 +334,7 @@ const About = () => {
                   aos-duration="2000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
                   </span>{" "}
@@ -351,7 +351,7 @@ const About = () => {
                   aos-duration="3000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
                   </span>{" "}
@@ -379,7 +379,7 @@ const About = () => {
                   aos-duration="4000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">
                     Full Stack Web Developer
                   </span>{" "}
@@ -408,7 +408,7 @@ const About = () => {
                   aos-duration="5000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">React Developer Intern</span>{" "}
                   BrainXero PAK (feb 2021 to Nov 2021)
                   <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
@@ -435,7 +435,7 @@ const About = () => {
                   aos-duration="6000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">Web Developer</span> BrainXero
                   Islamabad (Dec 2018 – Oct 2020)
                   <p className="list-disc list-inside ml-4 text-gray-300 flex items-center">
@@ -448,7 +448,7 @@ const About = () => {
                   aos-duration="7000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
-                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <div className="w-2 h-2 rounded-2xl bg-lime-500"> </div>
                   <span className="font-bold">
                     Graphic Designer / Freelancer
                   </span>{" "}

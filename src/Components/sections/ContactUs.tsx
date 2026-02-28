@@ -55,7 +55,7 @@ const ContactUs = () => {
           aos-duration="2000"
           type="text"
           className="font-Outfit rounded p-2 w-full bg-white/10 
-        border border-white/30 transition focus:outline-none focus:border-amber-400
+        border border-white/30 transition focus:outline-none focus:border-lime-400
         focus:bg-white/40"
           typeof="text"
           required
@@ -70,7 +70,7 @@ const ContactUs = () => {
           aos-duration="4000"
           type="text"
           className="font-Outfit rounded p-2 w-full bg-white/10 
-        border border-white/30 transition focus:outline-none focus:border-amber-400
+        border border-white/30 transition focus:outline-none focus:border-lime-400
         focus:bg-white/40"
           typeof="text"
           required
@@ -85,7 +85,7 @@ const ContactUs = () => {
           aos-duration="6000"
           type="text"
           className="font-Outfit rounded p-2 w-full bg-white/10 
-        border border-white/30 transition focus:outline-none focus:border-amber-400
+        border border-white/30 transition focus:outline-none focus:border-lime-400
         focus:bg-white/40"
           typeof="text"
           required
@@ -101,7 +101,7 @@ const ContactUs = () => {
           data-aos="fade-up"
           aos-duration="8000"
           className="font-Outfit rounded p-2 h-[100px] w-full bg-white/10 
-        border border-white/30 transition focus:outline-none focus:border-amber-400
+        border border-white/30 transition focus:outline-none focus:border-lime-400
         focus:bg-white/40"
           typeof="text"
           required
@@ -112,9 +112,9 @@ const ContactUs = () => {
 
         <button
           type="submit"
-          className="relative border-amber-400 border-2 font-Outfit text-amber-400 py-3 px-6 rounded font-medium overflow-hidden
-          duration-400 hover:translate-y-1 hover:shadow-[0_0_25px_rgba(255,165,0,0.7)] cursor-pointer
-          hover:border-amber-500 hover:text-amber-500"
+          className="relative border-lime-400 border-2 font-Outfit text-lime-400 py-3 px-6 rounded font-medium overflow-hidden
+          duration-400 hover:translate-y-1 hover:shadow-[0_0_25px_rgba(132,204,22,0.7)] cursor-pointer
+          hover:border-lime-500 hover:text-lime-500"
         >
           Send Me a Message{" "}
           {isLoading ? (

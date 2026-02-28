@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="max-w-5xl mx-auto px-4">
         <Title title="Featured Projects" />
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-3 h-auto">
+      <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-3 h-auto">
         <ProjectCard
           projectName="Fleets & Logistics ERP for PRCS"
           description="Designed and developed a comprehensive Fleet and Logistics Resource Request Portal for

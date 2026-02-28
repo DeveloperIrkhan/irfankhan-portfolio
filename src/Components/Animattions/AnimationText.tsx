@@ -44,7 +44,7 @@ const AnimationText = ({ phrases, className = "" }: IAnimationTypeProps) => {
 
   return (
     <div className={`flex items-center justify-center ${className}`}>
-      <span className="text-amber-300">
+      <span className="text-lime-500">
         {" "}
         A {currentText} <span className="animate-blink ml-1"> | </span>
       </span>

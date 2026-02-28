@@ -21,8 +21,8 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
             className="tracking-[5px] font-Dancing font-bold md:text-xl text-[18px]"
             href="#home"
           >
-            <span className="text-amber-500 font-Outfit">Dev.</span>
-            <span className="text-white">Irfan Khan</span>
+            <span className="text-lime-500 font-Outfit">Dev.</span>
+            <span className="text-lime-500">Irfan Khan</span>
           </a>
           <div
             onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -33,19 +33,19 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
           {isMenuOpen && (
             <div
               className={`fixed top-0 left-0 font-Outfit w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col
-           text-white transform transition-all duration-300 ease-in-out items-center space-y-4 py-4
+           text-lime-500 transform transition-all duration-300 ease-in-out items-center space-y-4 py-4
            ${isMenuOpen ? "translate-y-0 opacity-100" : "hidden opacity-0"}`}
             >
               <button
                 onClick={() => setIsMenuOpen((prev) => !prev)}
                 aria-label="Close menu"
-                className="cursor-pointer rounded-md focus:outline-none absolute top-6 right-6 text-white border-2 h-4 w-4 flex items-center justify-center border-white p-3 text-xl"
+                className="cursor-pointer rounded-md focus:outline-none absolute top-6 right-6 text-lime-500 border-2 h-4 w-4 flex items-center justify-center border-white p-3 text-xl"
               >
                 &times;
               </button>
               <div className="w-full h-screen flex flex-col items-center justify-center space-y-4">
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -57,7 +57,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                 </a>
                 
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -68,7 +68,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                   Experience
                 </a>
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -79,7 +79,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                   Projects
                 </a>
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -90,7 +90,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                   Education
                 </a>
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -101,7 +101,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                   About
                 </a>
                 <a
-                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                  className={`text-gray-300 hover:text-lime-500 transform transition-all duration-500 ${
                     isMenuOpen
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-5"
@@ -117,38 +117,38 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
           {/* //desktop menue */}
           <div className="hidden md:flex font-Outfit items-center space-x-8">
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#home"
             >
               Home
             </a>
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#projects"
             >
               Projects
             </a>
             
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#Experience"
             >
               Experience
             </a>
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#eduaction"
             >
               Eduaction
             </a>
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#about"
             >
               About
             </a>
             <a
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-lime-500 transition-colors duration-300"
               href="#contact"
             >
               Contact Me
