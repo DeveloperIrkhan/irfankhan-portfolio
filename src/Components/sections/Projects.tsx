@@ -11,6 +11,28 @@ const Projects = () => {
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-3 h-auto">
         <ProjectCard
+          projectName="Fleets & Logistics ERP for PRCS"
+          description="Designed and developed a comprehensive Fleet and Logistics Resource Request Portal for
+           the Pakistan Red Crescent Society (PRCS) using .Net Core WEBAPI, Next, TypeScript, and PostgresSQL. 
+           The portal features a user-friendly interface that allows PRCS staff to submit resource requests,
+           track their status in real time, and manage logistics efficiently. 
+           I implemented a robust role-based access control system with dedicated dashboards for 
+           administrators and technicians, enabling seamless task assignment and progress monitoring.
+            This solution significantly improved the efficiency of resource management and enhanced
+             the overall operational capabilities of PRCS."
+          skills={[
+            ".Net Core WEBAPI",
+            "NEXT.js",
+            "NEXT.js API routes",
+            "TypeScript",
+            "Tailwind CSS",
+            "Shadcn UI",
+            "Auth0",
+            "PostgresSQL",
+          ]}
+          link="#"
+        />
+        <ProjectCard
           projectName="Complaint Registeration system"
           description="I designed and developed a complete Complaint Registration System using Next.js, TypeScript, and MongoDB, allowing users to register complaints and track their status in real time. The system includes a robust role-based access structure with two dedicated dashboards: an Admin Dashboard for viewing all complaints, assigning tickets and tasks to technicians, managing priority levels, and monitoring progress, and a Technician Dashboard for accessing assigned tasks, updating complaint statuses, and managing daily workflow. I also implemented a user-friendly interface that improved complaint submission accuracy and significantly reduced processing time."
           skills={[
