@@ -294,7 +294,7 @@ const About = () => {
             </ul>
           </div>
 
-          <div className="flex flex-wrap">
+          <div id="Experience" className="flex flex-wrap">
             <div
               data-aos="fade-up"
               className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all"

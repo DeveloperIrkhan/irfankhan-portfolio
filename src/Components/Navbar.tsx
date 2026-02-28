@@ -73,6 +73,39 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: INavbarProps) => {
                       : "opacity-0 translate-y-5"
                   }`}
                   onClick={() => setIsMenuOpen((prev) => !prev)}
+                  href="#Experience"
+                >
+                  Experience
+                </a>
+                <a
+                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                    isMenuOpen
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-5"
+                  }`}
+                  onClick={() => setIsMenuOpen((prev) => !prev)}
+                  href="#projects"
+                >
+                  Projects
+                </a>
+                <a
+                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                    isMenuOpen
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-5"
+                  }`}
+                  onClick={() => setIsMenuOpen((prev) => !prev)}
+                  href="#projects"
+                >
+                  Projects
+                </a>
+                <a
+                  className={`text-gray-300 hover:text-white transform transition-all duration-500 ${
+                    isMenuOpen
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-5"
+                  }`}
+                  onClick={() => setIsMenuOpen((prev) => !prev)}
                   href="#education"
                 >
                   Education
