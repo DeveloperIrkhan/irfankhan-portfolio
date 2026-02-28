@@ -310,6 +310,32 @@ const About = () => {
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
                   <span className="font-bold">
+                    Volinteer Full Web Developer
+                  </span>{" "}
+                  Pakistan Red Crescent Society (PRCS)
+                  <p className="ml-4 text-gray-300">
+                    Working as a Full Stack Web Developer & IT Assistent at the 
+                    Pakistan Red Crescent Society (PRCS), 
+                    I have been responsible for designing and developing a 
+                    Complaint Registration System and a 
+                    comprehensive Fleet and Logistics Resource Request Portal. 
+                    This portal allows PRCS staff to submit resource requests, 
+                    track their status in real time, and manage logistics efficiently.
+                    I implemented a robust role-based access control system with 
+                    dedicated dashboards for administrators and technicians, 
+                    enabling seamless task assignment and progress monitoring. 
+                    This solution significantly improved the efficiency of 
+                    resource management and enhanced the overall operational 
+                    capabilities of PRCS.
+                  </p>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  aos-duration="2000"
+                  className="flex flex-row flex-wrap items-center gap-1 my-1"
+                >
+                  <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
+                  <span className="font-bold">
                     Full Stack Web Developer
                   </span>{" "}
                   www.onlinehurak.com
@@ -322,7 +348,7 @@ const About = () => {
                 </li>
                 <li
                   data-aos="fade-up"
-                  aos-duration="2000"
+                  aos-duration="3000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
@@ -350,7 +376,7 @@ const About = () => {
 
                 <li
                   data-aos="fade-up"
-                  aos-duration="3000"
+                  aos-duration="4000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
@@ -379,7 +405,7 @@ const About = () => {
 
                 <li
                   data-aos="fade-up"
-                  aos-duration="4000"
+                  aos-duration="5000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
@@ -419,7 +445,7 @@ const About = () => {
                 </li>
                 <li
                   data-aos="fade-up"
-                  aos-duration="5000"
+                  aos-duration="7000"
                   className="flex flex-row flex-wrap items-center gap-1 my-1"
                 >
                   <div className="w-2 h-2 rounded-2xl bg-amber-500"> </div>
